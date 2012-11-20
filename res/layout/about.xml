@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:background="@drawable/am" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.70" >
+        
+	    <RelativeLayout
+	        android:id="@+id/relativeLayout1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.70" >
+	
+	        <TextView
+	            android:id="@+id/textView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentTop="true"           
+	            android:layout_marginLeft="14dp"
+	            android:text="About Us"
+	        	android:textColor="#33b5e5"    	    
+		    	android:textSize="28dp"            
+	            android:textAppearance="?android:attr/textAppearanceLarge" />
+		
+	        <Button
+	            android:id="@+id/button1"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_below="@+id/textView1"
+	            android:layout_marginTop="40dp"
+	            android:layout_marginBottom="-7dp"
+	            android:layout_marginRight="-6dp"
+	            android:layout_marginLeft="-6dp"
+	            android:gravity="fill"
+	            android:text="Why S.D.I.T.M."
+	            android:shadowColor="#ffffff"
+	            android:shadowDx="2"
+	            android:shadowDy="2"
+	            android:shadowRadius="1"
+	            android:drawableRight="@drawable/ab" />
+	        
+		
+	        <Button
+	            android:id="@+id/button2"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_below="@+id/button1"
+	            android:layout_marginBottom="-7dp"
+	            android:layout_marginRight="-6dp"
+	            android:layout_marginLeft="-6dp"
+	            android:gravity="fill"
+	            android:text="Government Recognized"
+	            android:shadowColor="#ffffff"
+	            android:shadowDx="2"
+	            android:shadowDy="2"
+	            android:shadowRadius="1"
+	            android:drawableRight="@drawable/ab" />
+		
+	        <Button
+	            android:id="@+id/button3"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_below="@+id/button2"
+	            android:layout_marginBottom="-7dp"
+	            android:layout_marginRight="-6dp"
+	            android:layout_marginLeft="-6dp"
+	            android:gravity="fill"
+	            android:text="Excellent Infrastructure"
+	            android:shadowColor="#ffffff"
+	            android:shadowDx="2"
+	            android:shadowDy="2"
+	            android:shadowRadius="1"
+	            android:drawableRight="@drawable/ab" />
+		
+	        <Button
+	            android:id="@+id/button4"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_below="@+id/button3"
+	            android:layout_marginBottom="-7dp"
+	            android:layout_marginRight="-6dp"
+	            android:layout_marginLeft="-6dp"
+	            android:gravity="fill"
+	            android:text="Facilities"
+	            android:shadowColor="#ffffff"
+	            android:shadowDx="2"
+	            android:shadowDy="2"
+	            android:shadowRadius="1"
+	            android:drawableRight="@drawable/ab" />
+		
+	        <Button
+	            android:id="@+id/button5"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_below="@+id/button4"
+	            android:layout_marginBottom="-7dp"
+	            android:layout_marginRight="-6dp"
+	            android:layout_marginLeft="-6dp"
+	            android:gravity="fill"
+	            android:text="Anti-Ragging"
+	            android:shadowColor="#ffffff"
+	            android:shadowDx="2"
+	            android:shadowDy="2"
+	            android:shadowRadius="1"
+	            android:drawableRight="@drawable/ab" />
+		
+	        <Button
+	            android:id="@+id/button6"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_below="@+id/button5"
+	            android:layout_marginBottom="-7dp"
+	            android:layout_marginRight="-6dp"
+	            android:layout_marginLeft="-6dp"
+	            android:gravity="fill"
+	            android:text="Extra and co-curricular Activities"
+	            android:shadowColor="#ffffff"
+	            android:shadowDx="2"
+	            android:shadowDy="2"
+	            android:shadowRadius="1"
+	            android:drawableRight="@drawable/ab" />
+	            
+	            
+	        <Button
+	            android:id="@+id/button7"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_below="@+id/button6"
+	            android:layout_marginBottom="-7dp"
+	            android:layout_marginRight="-6dp"
+	            android:layout_marginLeft="-6dp"
+	            android:gravity="fill"
+	            android:text="Training and Placement"
+	            android:shadowColor="#ffffff"
+	            android:shadowDx="2"
+	            android:shadowDy="2"
+	            android:shadowRadius="1"
+	            android:drawableRight="@drawable/ab" />
+	
+	    </RelativeLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

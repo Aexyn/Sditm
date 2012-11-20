@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/am" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electronics and Communication Engineering"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="14dp"
+        android:textColor="#33b5e5"    	    
+	    android:textSize="22dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="2dp"
+                android:textSize="16dp"
+                android:text="The  aim  of  the  department  is  to  provide  the  students  with  a  solid  scientific  and  technical background in the design, development, manufacturing of electronic devices and systems used in a wide spectrum of applications ranging from household appliances to the most sophisticated satellite transponders. Communication technology is one of the most sophisticated and rapidly changing application areas of electronics. It now pervades the lives everyone, through mass communication  networks  and  person-to-person  communications  based  on  fixed  wireless networks.  Our  under  graduate  programme  provides  a  broad  education  in  the  fundamental principles  and  practice  of  electronics  engineering.  The  programme  is  very  practical  with  an emphasis to develop the students' knowledge and technical abilities in the areas of electronics and communication engineering."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ece" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

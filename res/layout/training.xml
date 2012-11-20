@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     
+    android:background="@drawable/am" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Training And Placement"
+            android:layout_marginLeft="14dp"
+            android:textColor="#33b5e5"    	    
+    	    android:textSize="28dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="2dp"
+                android:textSize="16dp"
+                android:text="  The joint placement cell of N.C-S.D group of institutions provides information and logistic support to the students for off-campus placements. It also organizes on-campus recruitment drives in which top companies of the country take part and hire the students of the campus. All the students of the current batch of MBA have been placed in reputed companies."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+                android:layout_marginTop="25dp"
+                android:textSize="16dp"
+                android:layout_marginLeft="2dp"
+                android:text="  All the students of the first two  pass-out batch of MBAhave been placed in various companies. The final year students of B.Tech have also been placed in top companies like Infosys, TCS, Sasken Communications etc."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/training" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

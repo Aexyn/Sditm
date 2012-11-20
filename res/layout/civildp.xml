@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/am" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diploma In Civil"
+        android:layout_marginLeft="14dp"
+        android:textColor="#33b5e5"    	    
+	    android:textSize="22dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="2dp"
+                android:textSize="16dp"
+                android:layout_marginTop="40dp"
+                android:text="This course aims at producing highly qualified, efficient technicians capable of meeting the requirements of the basic level of the Civil Engineering field. The course also offers adequate exposure to Reinforced Concrete Structures, Quality Control, Material Testing, Construction Management and Entrepreneurship, Professional Practice and Office Procedures."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/civildp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

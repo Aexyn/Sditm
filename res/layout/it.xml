@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/am" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Information Technology"
+        android:layout_marginLeft="14dp"
+        android:textColor="#33b5e5"    	    
+	    android:textSize="22dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="500dp" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="40dp"
+            android:textSize="16dp"
+            android:layout_marginLeft="2dp"
+            android:text="Information Technology has acquired great importance in recent times. It deals with conversion, storage,  protection,  transmission  and  retrieval  of  information  through  the  use  of  electronic computers and computer software. It gained great popularity in the nineties. IT provides a platform to develop software which is used by both the MNCs and the layman. The IT boom has seen the creation of numerous job opportunities for the IT professionals."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            
+            
+            
+        <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="List Of Laborataries:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            
+            
+              <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="310dp"
+                android:textSize="16dp"
+                android:text="» Operating Systems laboratory "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView4"
+                android:textSize="16dp"
+                android:text="» Internet Programming Laboratory"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView5"
+                android:textSize="16dp"
+                android:text="» Object Oriented Programming Laboratory"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView6"
+                android:textSize="16dp"
+                android:text="» Software Engineering laboratory"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView7"
+                android:text="» Network Programming Laboratory"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView8"
+                android:textSize="16dp"
+                android:text="» Compiler Design Laboratory"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView9"
+                android:textSize="16dp"
+                android:text="» Computer Programming Laboratory"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView10"
+                android:textSize="16dp"
+                android:text="» Graphics and Multimedia Laboratory "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView11"
+                android:textSize="16dp"
+                android:text="» Database Management System Lab"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView12"
+                android:textSize="16dp"
+                android:text="» Data Structure Lab"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView13"
+                android:textSize="16dp"
+                android:text="» Research and Development Lab"
+                android:textAppearance="?android:attr/textAppearanceMedium" />            
+            
+
+            
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView14"
+                android:textSize="16dp"
+                android:text="» Computer Hardware and Troubleshooting"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+     
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView15"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="2dp"
+            android:src="@drawable/cse" />
+
+    </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

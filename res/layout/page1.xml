@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/am"
+    android:orientation="vertical" >
+
+	<ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+	    <AbsoluteLayout
+	        android:id="@+id/absoluteLayout1"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" >
+	
+	        <TextView
+	            android:id="@+id/textView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_x="16dp"
+	            android:layout_y="166dp"
+	            android:textSize="15dp"
+	            android:text="Admissions" />
+	
+	        <TextView
+	            android:id="@+id/textView2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_x="134dp"
+	            android:layout_y="166dp"
+	            android:text="Courses"
+	            android:textSize="15dp" />
+	
+	        <TextView
+	            android:id="@+id/textView3"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:layout_x="243dp"
+	            android:layout_y="166dp"
+	            android:textSize="15dp"
+	            android:text="Faculty" />
+	
+	        <TextView
+	            android:id="@+id/textView4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_x="31dp"
+	            android:layout_y="284dp"
+	            android:text="Map"
+	            android:textSize="15dp" />
+	
+	        <TextView
+	            android:id="@+id/textView7"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_x="31dp"
+	            android:layout_y="396dp"
+	            android:text="Extras"
+	            android:textSize="15dp" />
+	
+	        <ImageView
+	            android:id="@+id/imageView8"
+	            android:layout_width="234dp"
+	            android:layout_height="wrap_content"
+	            android:layout_x="37dp"
+	            android:layout_y="24dp"
+	            android:src="@drawable/sdtext" />
+
+	        <ImageView
+	            android:id="@+id/imageView2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_x="15dp"
+	            android:layout_y="219dp"
+	            android:src="@drawable/map" />
+
+	        <ImageView
+	            android:id="@+id/imageView7"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_x="20dp"
+	            android:layout_y="339dp"
+	            android:src="@drawable/eextra" />
+
+	        <ImageView
+	            android:id="@+id/imageView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_x="22dp"
+	            android:layout_y="108dp"
+	            android:src="@drawable/admission" />
+
+	        <ImageView
+	            android:id="@+id/imageView5"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_x="133dp"
+	            android:layout_y="119dp"
+	            android:src="@drawable/courses" />
+
+	        <ImageView
+	            android:id="@+id/imageView3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_x="239dp"
+	            android:layout_y="100dp"
+	            android:src="@drawable/ffaculy" />
+
+	        <ImageView
+	            android:id="@+id/imageView10"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_x="128dp"
+	            android:layout_y="220dp"
+	            android:src="@drawable/gallery" />
+
+	        <ImageView
+	            android:id="@+id/imageView4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_x="240dp"
+	            android:layout_y="218dp"
+	            android:src="@drawable/newss" />
+
+	        <TextView
+	            android:id="@+id/textView5"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_x="246dp"
+	            android:layout_y="284dp"
+	            android:text="News"
+	            android:textSize="15dp" />
+
+	        <ImageView
+	            android:id="@+id/imageView9"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_x="237dp"
+	            android:layout_y="342dp"
+	            android:src="@drawable/contactus" />
+
+	        <ImageView
+	            android:id="@+id/imageView6"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_x="126dp"
+	            android:layout_y="331dp"
+	            android:src="@drawable/help" />
+
+	        <TextView
+	            android:id="@+id/textView6"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_x="130dp"
+	            android:layout_y="396dp"
+	            android:text="About Us"
+	            android:textSize="15dp" />
+
+	        <TextView
+	            android:id="@+id/textView8"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_x="234dp"
+	            android:layout_y="396dp"
+	            android:text="Contact Us" />
+
+	        <TextView
+	            android:id="@+id/textView9"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_x="138dp"
+	            android:layout_y="284dp"
+	            android:text="Gallery" />
+	
+	    </AbsoluteLayout>
+
+	</ScrollView>
+	
+</LinearLayout>

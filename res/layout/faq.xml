@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/am" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admission Helpline"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="14dp"
+        android:textColor="#33b5e5"    	    
+	    android:textSize="28dp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.81" >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:textSize="18dp"
+            android:text="For B.Tech:"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginTop="40dp" />
+        
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView6"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="14dp"
+            android:textSize="16dp"
+            android:text="» Mr.Sandeep Jaglan -   9215891800"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="6dp"
+            android:textSize="16dp"
+            android:text="» Mr. Rajesh Malik -    9466012263"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="6dp"
+            android:textSize="16dp"
+            android:text="» Mr. Anand - 8295080055"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="6dp"
+            android:textSize="16dp"
+            android:text="» Mr. Satyender - 9896558833"
+            android:textAppearance="?android:attr/textAppearanceMedium" />        
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView8"
+            android:layout_marginTop="20dp"
+            android:text="For MBA:"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="14dp"
+            android:textSize="16dp"
+            android:text="» Dr. Partap Singh - 9896537403"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        
+
+    </RelativeLayout>
+
+</LinearLayout>

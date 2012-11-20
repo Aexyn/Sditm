@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/am" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extra Activities"
+        android:layout_marginLeft="14dp"
+        android:textColor="#33b5e5"    	    
+	    android:textSize="28dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="40dp"
+                android:textSize="18dp"
+                android:text="» ISTE Chapter"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:text="The Chapter of Indian Society of Technical Education (ISTE)  has  been  established  at  the Institute with 32 lecturers becoming life-members of the  society.  The  Chapter  will  strive  to  continually work  towards  improving  the  quality  of  Technical Education.  The  Institute  has  also  started  ISTE Students'  Chapter  with  more  than  200  students enrolled in it."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/textView3"
+                android:src="@drawable/iste" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageView1"
+                android:layout_marginTop="30dp"
+                android:textSize="18dp"
+                android:text="» Classes in Foreign Language"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView4"
+                android:layout_marginLeft="8dp"
+                android:textSize="16dp"
+                android:text="To  equip  the  faculty  with  linguistic resources,  the institute  has  started  classes  in  foreign  languages with effect from January, 2009. The languages being offered are French, Russian, Chinese and German."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/textView5"
+                android:src="@drawable/foriegn" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="30dp"
+                android:textSize="18dp"
+                android:text="» Industrial Visit"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView6"
+                android:layout_marginLeft="8dp"
+                android:textSize="16dp"
+                android:text="The  M.B.A.  students  of  the  Institute  went  for  an industrial  visit  to  Pepsico  Bhiwadi.  The  students interacted with the staff at the industry and gathered information  about  various  production  and  quality control procedures adopted by the company."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView7"
+                android:layout_marginTop="30dp"
+                android:textSize="18dp"
+                android:text="» Sports Activities"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView8"
+                android:layout_marginLeft="8dp"
+                android:textSize="16dp"
+                android:text="The  students  of  S.D.Institute  of  Technology  and Management  brought  laurels  to  the  Institute  by participating  in  various  sports  activities  organized during March and April. Students gave marvellous performance  various  sports  events  held  during 2008-2009. Manoj, one of our students, represented Kurukshetra  University at the  Inter-Univerisity Athletic Meet."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView9"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/sports" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

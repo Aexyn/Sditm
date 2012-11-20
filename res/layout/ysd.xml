@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/am">
+
+ 
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Why SDITM"
+            android:layout_marginLeft="14dp"
+            android:textColor="#33b5e5"    	    
+    	    android:textSize="28dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="» Pedagogy"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+                android:layout_marginLeft="8dp"
+                android:text="Extensive  use  of  case  method  of  learning  to understand  how  technological  concepts  are  applied  in  business situations along with hands on training and  international  exposure,  Xmakes learning holistic and develops well groomed managers."
+                  />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/textView3"
+                android:layout_below="@+id/textView3"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:text="» World Class Teaching Community"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView4"
+                android:layout_below="@+id/textView4"
+                android:layout_marginLeft="8dp"
+                android:text="SDITM prides itself for its  world  class  teaching  community.  Action  centric  research  and industry  consultancy  keeps  the  teaching  abreast  in  both  the  Xacademic and the industrial world."
+                  />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/textView5"
+                android:layout_below="@+id/textView5"
+                android:text="» Industry Oriented Programs "
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView6"
+                android:layout_marginLeft="8dp"
+                android:text="The  institute  proactively senses technology and business world requirements and continuously innovates to build human capital to fit those needs. Introduction of MBA program was a result of its thrust on  continuous updation of  Xprogrammes to keep the deliverables contemporary."
+                  />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView7"
+                android:text="» Holistic Learning"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView8"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="100dp"
+                android:text="All the programs are designed in such a  way that  they  provide  equal  focus  on  knowledge,  skill  and  Attitude development."
+                  />
+
+         </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/am" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.78" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Map"
+            android:layout_marginLeft="14dp"
+        	android:textColor="#33b5e5"    	    
+	    	android:textSize="28dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="-7dp"
+            android:layout_marginRight="-6dp"
+            android:layout_marginLeft="-6dp"
+            android:gravity="fill"
+	        android:shadowColor="#ffffff"
+	        android:shadowDx="2"
+	        android:shadowDy="2"
+            android:shadowRadius="1"
+            android:drawableRight="@drawable/ab"
+            android:text="From Delhi" />
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button1"
+            android:layout_marginBottom="-7dp"
+            android:layout_marginRight="-6dp"
+            android:layout_marginLeft="-6dp"
+            android:gravity="fill"
+	        android:shadowColor="#ffffff"
+	        android:shadowDx="2"
+	        android:shadowDy="2"
+            android:shadowRadius="1"
+            android:drawableRight="@drawable/ab"
+            android:text="From Panipat" />
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button2"
+            android:layout_marginBottom="-7dp"
+            android:layout_marginRight="-6dp"
+            android:layout_marginLeft="-6dp"
+            android:gravity="fill"
+	        android:shadowColor="#ffffff"
+	        android:shadowDx="2"
+	        android:shadowDy="2"
+            android:shadowRadius="1"
+            android:drawableRight="@drawable/ab"
+            android:text="From Chandigarh" />
+
+    </RelativeLayout>
+
+</LinearLayout>

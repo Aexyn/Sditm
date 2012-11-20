@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/am" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Excellent Infrastructure"
+        android:layout_marginLeft="14dp"
+        android:textColor="#33b5e5"    	    
+	    android:textSize="28dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="40dp"
+                android:textSize="18dp"
+                android:text="» Library"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:text="Library is the heart of any educational institution. It plays an important role in dissemination of knowledge and creation of the academic atmosphere. The SDITM library has a seating capacity of 250 students at a time with the carpet area of about 8000 square feet with cushy and modern furniture. Photocopying facility  is  available  within  the  library.  The  library  has  a  good  collection  of curriculum books and reference material. The library subscribes to 32 print journals from India and abroad. It has also applied  for  membership  of  INDEST-AICTE  consortium.  This  consortium permits to e-resources to our instistute thereby catalyzing quality teaching process.  The  institute  has  subscribed  to  249  online  journals  of  various disciplines of Engineering and Sciences. The Open Access System of the Library and Online Public Access Catalog (OPAC) also provides its readers with  latest  library  material  for  reading  and  research  wor.  Our  library  also facilitates  current  awareness  services  and  Inter-library  Loan  facility  to  its faculty members  and readers."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/library" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageView1"
+                android:layout_marginTop="18dp"
+                android:textSize="18dp"
+                android:text="» Lecture Rooms"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView4"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:text="Well furnished, air Conditioned spacious classrooms  and  lecture  halls  give  the future engineers and managers a focused area  to  develop  their  personalities.  The latest  audio-visual  aids  and  multimedia technology enables the faculty members to have interactive sessions of teaching, which instills confidence and enthusiasm among our students. "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView5"
+                android:src="@drawable/lectre_room" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="18dp"
+                android:textSize="18dp"
+                android:text="» Computer Labs" 
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView6"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:text="Computer Center at SDITM has work-oriented open environment generally available in the industry. It has well equipped and spacious computer labs to meet the computing needs of the students in completely air-conditioned environment."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView7"
+                android:src="@drawable/lab" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

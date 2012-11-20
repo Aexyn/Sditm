@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/am" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Faculty"
+            android:layout_marginLeft="14dp"
+        	android:textColor="#33b5e5"    	    
+	    	android:textSize="28dp"       
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+                             
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="2dp"
+                android:textSize="16dp"
+                android:layout_marginTop="40dp"
+                android:text="In any academic Institution, the quality of faculty is most important. At SDITM,we pride ourselves in having some of the most talented and dedicated thought leaders in the country who come from the best institutions around the country. Not only are they academically and prfessionally amongst the best, but have high standards of moral and ethical values, so that they can be true role models."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/faculty_one" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageView1"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="2dp"
+                android:textSize="16dp"
+                android:text="Every member of SDITM works tirelessly to shape the future of our students and give their career new directions. The faculty is not only well equipped to impart the knowledge that they possess, but also to guide the students to realize their own potential."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/faculty_two" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="2dp"
+                android:textSize="16dp"
+                android:text="For our students, we choose nothing other than the best, a team of learned, committed  and  experienced  professionals  drawn  from  varied  streams  of discipline."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView4"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="2dp"
+                android:textSize="16dp"
+                android:text="The faculty at SDITM makes an earnest effort to put in all the inputs essential to deliver  quality  management  education.  The  blend  of  faculty,  academicians, researchers and professionals drawn from all over the world with their funds of managerial expertise, gives us a unique professional standing in the education world."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

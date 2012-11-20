@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/am" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="News"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="14dp"
+        android:textColor="#33b5e5"    	    
+    	android:textSize="28dp"/>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.74" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:text="» 11 Apr 2012 Rebuscode Information Solutions"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Rebuscode Information Solutionsvisited SDITM, Campus for selection of Software Developer and offered a package of Rs. 3.00 LPA to branch(es) of batch. A total of   339 students were eligible for this opportunity. Out of these 241 appeared in the test. The company shortlisted 13 students after the written test. All 13 students appeared in the HR round. Finally, the Company has offered job to 3 students (NCIT-1, SDITM-2). Details of the selected students may be had on the Placement Details Page or from the Placement Division, NC College of Engineering." />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:text="» 02 Apr 2012 Wipro(BPO Division)"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Wipro (in BPO Division) visited SDITM, Campus for selection of Software Engineer and offered a package of Rs. 1.80 LPA to B.Tech. branch(es) of 2008-2012 batch. A total of   315 students of the entire campus were eligible for this opportunity. Out of these 210 appeared in the Written test followed by a GD. The company shortlisted 7 students of NCCE, 3 of NCIT and 1 student of SDITM, the details of the selected students may be had on the Placement Details Page or from the Placement Division, NC College of Engineering. Congratulations to all !!" />
+
+            
+             <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:text="» 28 Mar 2012 Genpact"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Genpact visited SDCM Campus for selection of Process Associate- Finance and offered a package of Rs. 2.40 LPA to MBA branch(es) of 2008-2012 batch. A total of 71 students of the campus were eligible for this opportunity. The Company has finally offered job to 1 student, details of the selected student may be had on the Placement Details Page or from the Placement Division, NC College of Engineering.
+                " />
+         
+              <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:text="» 23 Mar 2012 Zven Technologies"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Zven Technologies visited SDITM, Campus for selection of Software Engineer and offered a package of Rs. 3.00 LPA to CSE and IT branch(es) of 2008-2012 batch. A total of   137 students of NCCE, 81 of NCIT and 73 of SDITM were eligible for this opportunity. Out of these 90 of NCCE, 60 of NCIT and 46 of SDITM appeared in the test. The company shortlisted 25 students of NCCE, 9 students of NCIT and 17 students of SDITM after the written test. A total of 16 students of NCCE, 4 students of NCIT and 7 students of SDITM appeared in the HR round. The Company has finally offered job to 7 students of NCCE and 3 students of SDITM. Details of the selected students may be had on the Placement Details Page or from the Placement Division, NC College of Engineering. Congratulations to selected students" />
+            
+            
+            
+              <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:text="» 16 Mar 2012 Tech. Mahindra"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Tech. Mahindra visited AKS Inst. Noida for selection of Marketing Executive and offered a package of Rs. 2.40 LPA to MBA branch(es) of 2008-2012 batch. A total of   12 students were eligible for this opportunity. Out of these 10 appeared in the test. The company shortlisted 5 students. Three cheers for NCCE!! Details of the selected students may be had on the Placement Details Page or from the Placement Division, NC College of Engineering." />
+            
+            
+            
+             <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:text="» 06 Mar 2012 White Swan Group"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="White Swan Group visited NCCE, Campus for selection of Business Development Executive and offered a package of Rs. 1.80 LPA to MBA branch(es) of all colleges in the group. A total of   86 students were eligible for this opportunity. Out of these 19 appeared in the test. The company shortlisted 2students after the entire process. Details of the selected students may be had on the Placement Details Page or from the Placement Division, NC College of Engineering." />
+                        
+             <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:text="» 01 Mar 2012 AKS Software Ltd."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="AKS Software Ltd.visited NCCE, Campus for selection of Software Engineer and offered a package of Rs. 3.00 LPA to CSE and IT branch(es) of 2008-2012 batch. Final selection was offered to 1 student of NCCE. Details of the selected students may be had on the Placement Details Page or from the Placement Division, NC College of Engineering" />
+            
+            
+             <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:text="» 25 Feb 2012 CMC Limited"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="CMC Limited visited SBIT, Sonepat for selection of Software Engineer and offered a package of Rs. 2.75 LPA to CSE,IT and MCA branch(es) of 2008-2012 batch. A total of  118 students were eligible for this opportunity. Out of these 42 appeared in the test. The company has finally offered job to 1 student of NCCE. Details of the selected students may be had on the Placement Details Page or from the Placement Division, NC College of Engineering." />
+            
+            
+            
+             <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:text="» 23 Feb 2012 ICICI Bank"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="ICICI Bank visited SSIET, Chandigarh for selection of Development Officer and offered a package of Rs. 2.00 LPA to MBA branch(es) of 2008-2012 batch. A total of   10 students were eligible for this opportunity. Out of these 10 appeared in the test. 3 students have been offered job with ICICI Bank. Details may be had from the Placement Division." />
+
+            
+            
+             <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:text="» 17 Feb 2012 Innodata"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Innodata visited Hi-Tech Engg. and Tech., Ghaziabad for selection of Software Engineer and offered a package of Rs. 3.00 LPA to CSE,IT branch(es) of 2008-2012 batch. A total of   99 students of NCCE and 9 of SDITM were eligible for this opportunity. Out of these 4 of NCCE appeared in the test. Company has finally offered job to 1 student of NCCE." />            
+   
+            
+              <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:text="» 04 Feb 2012 Innover"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Innover visited NCCE, Campus for selection of Software Trainee and offered a package of Rs. 1.80 LPA to MCA branch(es) of 2008-2012 batch. A total of   53 students were eligible for this opportunity. Out of these 34 appeared in the test. The company shortlisted 19 students after the written test, followed by a GD. The Company has finally selected 4 students for the Job. Details of the selected students may be had on the Placement Details Page or from the Placement Division, NC College of Engineering." />           
+            
+              <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:text="» Amba Group (for Airtel)"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Amba Group (for Airtel) visited NCCE, Campus for selection of Relationship Manager and offered a package of Rs. 2.40 LPA to branch(es) of batch. A total of 15 students of SDITM, 28 students of NCCE and 15 students of SDCM were eligible for this opportunity. Out of these 6 of NCCE, 6 of SDITM and 2 of SDCM appeared in the test. The company shortlisted 2 students of SDITM finally offered job. Details of the selected students may be had on the Placement Details Page or from the Placement Division, NC College of Engineering." />           
+   
+              <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:text="» 23 Jan 2012 AON-Hewitt"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="AON-Hewitt visited Krishna Institute of Engineering and Tech., Ghaziabad for selection of Setup Configuration Specialist Trainee and offered a package of Rs. 2.30 LPA to MCA branch(es) of 2008-2012 batch. A total of   40 students were eligible for this opportunity. Out of these 40 appeared in the test. The company shortlisted - students after the written test, followed by a GD. - students were shortlisted after the Group Discussion and - students appeared in the HR round. Company has finally offered job to 3 students. Kudos!! Students have again done it..!!" />           
+            
+             <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:text="» 17 Dec 2011 Xanta Technologies"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="In the placement event organized by Geeta Enginnering College, Naultha, Xanta Technologies offered the post of Software Developer and a package of Rs. 3.25 LPA. The Company has finally offered job to 1 student of SDITM." />
+     
+             <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:text="» 17 Dec 2011 TCS"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="TCS has visited NCCE campus for a preliminary visit and conversed with the students of the Batches of 2008-12 and 2009-13. There were around 500 students who attended the event. TCS is in close communication with the Placement Division and will visit soon for recruitment at NC College of Engineering." />
+            
+            
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:text="» 08 Dec 2011 A2Z Group"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="A2Z Group visited NCCE Campus for selection of Graduate Engineer Trainee and offered a package of Rs. 1.68 LPA to Civil Only branch(es) of 2008-2012 batch. A total of   28 students were eligible for this opportunity. Out of these 25 appeared in the test. 12 students were shortlisted after the Group Discussion and - students appeared in the HR round. Company has finally offered job to 4 students. Congratulations to the selected students!! Details of the selected students may be had on the Placement Details Page or from the Placement Division, NC College of Engineering." />
+            
+           
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:text="» 07 Dec 2011 Newgen Software Technologies Ltd."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Newgen Software Technologies Ltd. visited SDITM, Campus for selection of Software Engineer and offered a package of Rs. 3.75 LPA to CSE,IT and MCA branch(es) of 2008-2012 batch. A total of 132 students of the Campus were eligible for this opportunity. Out of these 125 appeared in the Written test followed by a GD. A total of 6 students were shortlisted and offered the job." />
+
+            
+            
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:text="» 05 Dec 2011 Genpact Batch 2007-11"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Genpact visited NCCE Campus for selection of Software Engineer and offered a package of Rs. 2.20 LPA to CSE,IT and ECE branch(es) of 2007-2011 batch. The Company has finally offered job to 6 students. Kudos!! Details of the selected students may be had on the Placement Details Page or from the Placement Division, NC College of Engineering." />
+            
+            
+            
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:text="» 05 Dec 2011 Genpact Batch 2008-12"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Genpact visited NCCE Campus for selection of Software Engineer and offered a package of Rs. 2.20 LPA to CSE,IT and ECE branch(es) of 2008-2012 batch. A total of   229 students of NCCE, 110 of SDITM and 73 of SDITM were eligible to appear for the Written Exam. Out of these 188 students of NCCE, 95 of NCIT and 60 students of NCIT appeared in the test. The company shortlisted 86 students of NCCE, 29 of NCIT and 12 students of SDITM after the Group Discussion. Final selections have been offered to 10 students of NCCE, 3 students of NCIT and 2 students of SDITM." />
+            
+            
+            
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:text="» 27 Nov 2011 Nokia India Pvt. Ltd."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="100dp"
+                android:text="Nokia India Pvt. Ltd. visited NCCE Campus for selection of Software Developer and offered a package of Rs. 3.25 LPA to CSE,IT and MCA branch(es) of 2008-2012 batch. A total of 205 students of NCCE, 78 students of NCIT and 76 of SDITM were eligible for this opportunity. Out of these 149 of NCCE, 49 of NCIT and 66 of SDITM appeared in the test. 49 students of NCCE, 13 students of NCIT and 11 students of SDITM were shortlisted after the Group Discussion. Then 20 students of NCCE, 4 students of NCIT and 7 students of SDITM were appear in the HR round. The Company has finally offered job to 7 students of NCCE and 5 students of SDITM. Kudos!! Details of the selected students may be had on the Placement Details Page or from the Placement Division, NC College of Engineering." />
+            
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click Here for more NEWS"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            
+            
+        </LinearLayout>
+        
+
+    </ScrollView>
+
+</LinearLayout>

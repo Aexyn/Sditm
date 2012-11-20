@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/am" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contacts"
+        android:layout_marginLeft="14dp"
+       	android:textColor="#33b5e5"    	    
+	    android:textSize="28dp"        
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="40dp"
+                android:textSize="17dp"
+                android:layout_marginLeft="2dp"
+                android:text="Director (Dr. S. Biswas)"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_below="@+id/textView2"
+                android:text="sdcharitable1@rediffmail.com" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="20dp"
+                android:textSize="17dp"
+                android:layout_marginLeft="2dp"
+                android:text="Registrar (Mr R.K. Singh)"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView4"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:text="rksingh@yahoo.com"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView5"
+                android:layout_marginTop="20dp"
+                android:textSize="17dp"
+                android:layout_marginLeft="2dp"
+                android:text="HOD [CSE and Admission Incharge] (Mr. Sandeep Jaglan)"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView6"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:text="cse.sditm@gmail.com"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView7"
+                android:layout_marginTop="20dp"
+                android:textSize="17dp"
+                android:layout_marginLeft="2dp"
+                android:text="HOD [IT] (Mr. Sompal)"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView8"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:text="it.sditm@gmail.com"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView9"
+                android:layout_marginTop="20dp"
+                android:textSize="17dp"
+                android:layout_marginLeft="2dp"
+                android:text="HOD [ECE] (Mr. Rajesh Malik)"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView10"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:text="er.pawan35@gmail.com"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView11"
+                android:layout_marginTop="20dp"
+                android:textSize="17dp"
+                android:layout_marginLeft="2dp"
+                android:textStyle="bold"
+                android:text="HOD [ME] (Mr. Rajan Garg)"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView12"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:text="ergargrajan@yahoo.co.in"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView13"
+                android:layout_marginTop="20dp"
+                android:textSize="17dp"
+                android:layout_marginLeft="2dp"
+                android:text="HOD [CIVIL] (Mr. Mukul Kathuria)"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView14"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:text="mukulkathuria90@gmail.com"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+            
+         <TextView
+		        android:id="@+id/textView16"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Examination Incharge(Mr.Amit Kaushik)"
+		        android:layout_below="@+id/textView15"
+                android:layout_marginTop="20dp"
+                android:textSize="17dp"
+                android:layout_marginLeft="2dp"
+		        android:textStyle="bold"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView16"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:text="mitukk77@gmail.com"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+          <TextView
+		        android:id="@+id/textView18"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Placement Incharge(Mr. Ravinder Singh Madan)"
+		        android:layout_below="@+id/textView16"
+                android:layout_marginTop="40dp"
+                android:textSize="17dp"
+                android:layout_marginLeft="2dp"
+		        android:textStyle="bold"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView18"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:text="ravimadhan@gmail.com"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+
+        </RelativeLayout>
+    
+        </ScrollView>
+
+</LinearLayout>

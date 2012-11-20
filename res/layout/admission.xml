@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/am" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Admissions"
+            android:layout_marginLeft="14dp"
+        	android:textColor="#33b5e5"    	    
+	    	android:textSize="28dp" 
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.75" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="-7dp"
+            android:layout_marginRight="-6dp"
+            android:layout_marginLeft="-6dp"
+            android:gravity="fill"
+            android:text="Application Form"
+	        android:shadowColor="#ffffff"
+	        android:shadowDx="2"
+	        android:shadowDy="2"
+            android:shadowRadius="1"
+            android:drawableRight="@drawable/ab" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_below="@+id/button1"
+            android:layout_marginBottom="-7dp"
+            android:layout_marginRight="-6dp"
+            android:layout_marginLeft="-6dp"
+            android:gravity="fill"
+            android:text="Prospectus"
+	        android:shadowColor="#ffffff"
+	        android:shadowDx="2"
+	        android:shadowDy="2"
+            android:shadowRadius="1"
+            android:drawableRight="@drawable/ab" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button2"
+            android:layout_below="@+id/button2"
+            android:layout_marginBottom="-7dp"
+            android:layout_marginRight="-6dp"
+            android:layout_marginLeft="-6dp"
+            android:gravity="fill"
+            android:text="Scholarship"
+	        android:shadowColor="#ffffff"
+	        android:shadowDx="2"
+	        android:shadowDy="2"
+            android:shadowRadius="1"
+            android:drawableRight="@drawable/ab" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button3"
+            android:layout_below="@+id/button3"
+            android:layout_marginBottom="-7dp"
+            android:layout_marginRight="-6dp"
+            android:layout_marginLeft="-6dp"
+            android:gravity="fill"
+            android:text="Counselling"
+	        android:shadowColor="#ffffff"
+	        android:shadowDx="2"
+	        android:shadowDy="2"
+            android:shadowRadius="1"
+            android:drawableRight="@drawable/ab" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button4"
+            android:layout_below="@+id/button4"
+            android:layout_marginBottom="-7dp"
+            android:layout_marginRight="-6dp"
+            android:layout_marginLeft="-6dp"
+            android:gravity="fill"
+            android:text="Admission Helpline"
+	        android:shadowColor="#ffffff"
+	        android:shadowDx="2"
+	        android:shadowDy="2"
+            android:shadowRadius="1"
+            android:drawableRight="@drawable/ab" />
+
+    </RelativeLayout>
+
+</LinearLayout>

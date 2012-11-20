@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/am" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eligibility Criteria"
+        android:layout_marginLeft="14dp"
+        android:textColor="#33b5e5"    	    
+	    android:textSize="28dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="40dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="» Bachelor of Technology"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="6dp"
+                android:textSize="16dp"
+                android:text="• Admissions are based on AIEEE, conducted by CBSE, Delhi."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView3"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="6dp"
+                android:textSize="16dp"
+                android:text="• In addition to the AIEEE score, the candidate should have passed 10+2 examination with 50% marks  in  aggregate  from  a  recognized  Board/University  with  Physics  and  Mathematics  as  compulsory subjects along with one of the following:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView4"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="6dp"
+                android:textSize="16dp"
+                android:text="º Chemistry" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView5"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="6dp"
+                android:textSize="16dp"
+                android:text="º Bio-Technology" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView6"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="6dp"
+                android:textSize="16dp"
+                android:text="º Computer Science" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView7"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="6dp"
+                android:textSize="16dp"
+                android:text="º Biology" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView8"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="6dp"
+                android:textSize="16dp"
+                android:text="• If a student has been declared pass in 10+2 by the board, he/she must be pass separately in theory as well as practical in Physics, Chemistry and Mathematics as the case may be."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView9"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:text="» Master of Business Administration"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView10"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="6dp"
+                android:textSize="16dp"
+                android:text="Admissions are based on the MAT score in the latest four tests conducted by AIMA. In addition, the candidate should possess:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView11"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="6dp"
+                android:textSize="16dp"
+                android:text="• A Bachelor's  or  Post  Graduate  degree  in  any  discipline  from  a  recognized  university  or  an examination recognized as equivalent thereto."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView12"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="6dp"
+                android:textSize="16dp"
+                android:text="OR"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView13"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="6dp"
+                android:textSize="16dp"
+                android:text="• A pass in Final examination conducted by the Institute of Chartered Accountants of India/ Institute of Costs and Works Accountants of India/ Institute of Company Secretaries of India."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView14"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:text="» Diploma"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView15"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="6dp"
+                android:textSize="16dp"
+                android:text="• Admissions are based on the Diploma Entrance Test (DET) score conducted by Directorate of Technical Education and Training (DTET)"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView16"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="6dp"
+                android:textSize="16dp"
+                android:text="• In addition to the DET score, the candidate should have passed 10th examination with minimum 35% marks  in  aggregate."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>
